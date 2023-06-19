@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gram Grain Cleaning Machine</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <h1>Gram Grain Cleaning Machine</h1>
+    <div id="status">Machine Status: Stop</div>
+    <div id="image-container">
+      <img src="C:\Users\gauta\Downloads\machine photo.webp" alt="Grain Image">
+    </div>
+    <div id="controls">
+      <button id="start-btn" onclick="startCleaning()">Start Cleaning</button>
+      <button id="stop-btn" onclick="stopCleaning()">Stop Cleaning</button>
+    </div>
+    <div id="sensor-data">
+      <h2>Sensor Data</h2>
+      <div id="1.Pulse">Pulse Laser: <span id="pulse-status">OFF</span></div>
+      <div id="2.Motor">Motor Speed: <span id="motor-speed">0</span> RPM</div>
+      <div id="3.Trash">Trash Holder: <span id="trash-count">0</span> impurities</div>
+      <div id="4.Fingers">Fingers: <span id="fingers-status">OFF</span></div>
+      <div id="5.Conveyor-Belt">Conveyor Belt: <span id="conveyor-belt">0</span> RPM</div>
+      <div id="6.Camera">Camera: <span id="camera-pixel">0 PX</span></div>
+      <div id="7.Rotator">Rotator: <span id="rotator-speed">0</span> RPM</div>
+      <div id="8.Bag">Bag Holder: <span id="bag-status">Empty</span></div>
+      <div id="9.Mirror">Mirror Cover: <span id="mirror-status">Close</span></div>
+      <div id="10.Brain/Electronic">Brain/electronic: <span id="brain/electronic-status">Not Working</span></div>
+      <div id="11.Packing">Packing: <span id="packing-status">Packed</span></div>
+
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

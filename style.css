@@ -1,0 +1,76 @@
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Container styles */
+#container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Heading styles */
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #666;
+  margin-top: 20px;
+}
+
+/* Status styles */
+#status {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Image container styles */
+#image-container {
+  margin-top: 20px;
+}
+
+/* Button styles */
+#controls button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/* Sensor data styles */
+#sensor-data {
+  margin-top: 40px;
+  text-align: left;
+}
+
+#sensor-data div {
+  margin-top: 10px;
+}
+
+#sensor-data span {
+  font-weight: bold;
+}
+
+/* Styling specific sensor data */
+#1\.Pulse,
+#4\.Fingers,
+#8\.Bag,
+#9\.Mirror,
+#10\.Brain\/Electronic,
+#11\.Packing {
+  color: #FF0000;
+}
+
+#2\.Motor,
+#5\.Conveyor-Belt,
+#6\.Camera,
+#7\.Rotator {
+  color: #00FF00;
+}
+
+#3\.Trash {
+  color: #0000FF;
+}
